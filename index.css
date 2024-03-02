@@ -1,0 +1,156 @@
+/* Basic styles for the linktree */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+    
+
+}
+
+.main-container{
+    width: 40%;
+    height: auto;
+    background-color: #f8f8f8; 
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    border: 1px solid #0056b3;
+    /* background: linear-gradient(90deg, #eb07c5, #0606f1); */
+    /* background-image: url(./image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+#linktree {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 1rem;
+    align-content: center;
+}
+
+ul {
+    padding: 1rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3;
+    padding: 1rem 4rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #0056b3
+}
+
+a:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Styles for the form */
+
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    background-color: #ecebeb;
+    border-radius: 1rem;
+    align-content: center;
+    display: none;
+}
+
+input{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    row-gap: 0.5rem;
+    text-align: center;
+    border-radius: 5rem;
+    color: #a7a5a5;
+    
+
+    
+} 
+
+#addLinkButton {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.input-group {
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    border: 1px solid #e3e3e3;
+    font-size : 0.85rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+Button {
+    width: 35%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5rem;
+}
+
+#addLinkButton:hover {
+    background-color: #0056b3;
+}
